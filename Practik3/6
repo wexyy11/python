@@ -1,0 +1,20 @@
+name = input('Ваше имя: ')
+age_str = input('Ваш возраст: ')
+subjects_str = input('Любимые предметы (через запятую): ')
+#преобр типов
+age = int(age_str)
+subjects = subjects_str.split(',')
+#3 создание словаря
+student = {
+    "name": name,
+    "age": age,
+    "subjects": subjects
+}
+#4 красивый вывод
+print('=' * 30)
+print('АНКЕТА СТУДЕНТА')
+print('=' * 30)
+
+print('имя: ', student['name'])
+print('возраст: ', student['age'])
+print('любимые предметы: ', student['subjects'])
