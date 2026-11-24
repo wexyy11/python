@@ -1,0 +1,4 @@
+total_min=int(input('Введите число минут: '))
+hours = total_min // 60
+minuts = total_min % 60
+print( total_min, 'минуты - это', hours, 'час', minuts, 'минут' )
