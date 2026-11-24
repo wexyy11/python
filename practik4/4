@@ -1,0 +1,6 @@
+n = int(input('число школьников: '))
+k = int(input('число мандаринов: '))
+shcolnicam = k // n
+in_corzina = k % n
+print('остенется школьникам:', shcolnicam)
+print('останется в корзине', in_corzina)
